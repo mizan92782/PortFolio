@@ -1,0 +1,237 @@
+body {
+    font-family: Arial, sans-serif;
+    margin:0 ;
+    padding: 20;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(0, 128, 28);
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around; 
+    background-color: #0f0e0e;
+}
+
+nav ul li {
+    flex: 1; 
+    text-align: center; 
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px 0;
+}
+
+nav ul li a:hover {
+    background-color: #36c3ea;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: calc(100vh - 60px);
+    padding: 20px;
+
+    background-color:  #032d4e;
+}
+
+.about-me {
+    flex: 1;
+    margin-right: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+
+
+full-screen-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.full-screen-image img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(244, 244, 244, 0.1);
+}
+
+
+
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h1{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 90px;
+    font-weight: bold;
+}
+
+h2 {
+    
+    padding: 20px;
+}
+
+h3 {
+    background-color: #eee;
+    padding: 5px;
+    margin: 10px 0;
+}
+
+p {
+    padding: 20px;
+    
+}
+.cards-container {
+    display: flex;
+    
+    gap: 20px;
+    justify-content: center; 
+}
+
+.card {
+    background-color: #032d4e;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    text-decoration: none;
+    color: rgb(247, 244, 244);
+    width: 250px; 
+    transition: transform 0.2s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+}
+
+
+.card:hover {
+    transform: scale(1.05);
+    background-color: rgb(9, 28, 113);
+}
+
+.card img {
+    width: 100%;
+    height: 60%;
+}
+
+.card h3 {
+    background-color: #eee;
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+}
+
+.card p {
+    padding: 0 10px;
+    text-align: center;
+    color: #fdfefd;
+    
+}
+
+.card a {
+    display: block;
+    background-color: #4524e9;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 0 0 8px 8px;
+    width: 100%;
+   
+    
+    
+}
+
+.card a:hover {
+    background-color: #131212;
+}
+
+
+
+
+
+
+.schoolcard {
+    background-color: #032d4e;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    text-decoration: none;
+    color: rgb(247, 244, 244);
+    width: 500px; 
+    transition: transform 0.2s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; 
+    display: flex;
+    flex-direction: column;
+   
+   
+}
+
+
+.schoolcard  h1
+{
+    text-align: center;
+}
+
+
+
+
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #007bff; /* Change to the desired hover color */
+}
+
+
+
+footer {
+    background-color: #032d4e;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+   
+    width: 100%;
+    bottom: 0;
+}
